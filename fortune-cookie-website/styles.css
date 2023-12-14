@@ -1,0 +1,73 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+main {
+    width: 100%;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    background-color: rgb(54, 28, 28);
+}
+
+h1 {
+    display: flex;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    color: rgb(214, 125, 22);
+    font-family: Cinzel;
+    font-size: 75px;
+    text-shadow: 3px 3px 0 #000000, 
+                3px 3px 0 #000000, 
+                3px 3px 0 #000000, 
+                3px 3px 0 #000000;
+    margin-bottom: 10px;
+}
+
+#card {
+    width: 50rem;
+    height: 35rem;
+    font-family: Cinzel;
+    font-size: 40px;
+    color: rgb(54, 28, 28);
+    background-color: rgb(175, 127, 83);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+    border-radius: 30px;
+}
+
+a {
+    color: rgb(165, 115, 115);
+}
+
+img {
+    width: 300px;
+}
+
+.fortune {
+    font-family: Cinzel;
+    font-size: 25px;
+    color: rgb(54, 28, 28);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+}
+
+.hidden {
+    display: none;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
